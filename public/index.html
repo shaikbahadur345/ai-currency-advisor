@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Currency & Economy Advisor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💱 AI Currency & Economy Advisor</h1>
+
+    <div class="form">
+      <label for="base">Base Currency:</label>
+      <input type="text" id="base" value="USD" />
+      <button id="fetchBtn">Get Insights</button>
+    </div>
+
+    <div class="results">
+      <h2>📊 Exchange Rates</h2>
+      <table id="ratesTable">
+        <thead>
+          <tr>
+            <th>Currency</th>
+            <th>Rate</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <h2>🤖 AI Insights</h2>
+      <div id="aiAdvice" class="ai-box"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
